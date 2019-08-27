@@ -183,7 +183,7 @@ Type script is very similar to lock script, with two differences:
 
 Although we can only keep only one type of script in the cell, we don't want to mess the different responsibilities in a single script.
 
-The lock script is only executed for outputs, so its primary responsibility is protecting the cells. Only the owner is allowed to use the cell as input and spend the token stored along with it.
+The lock script is only executed for inputs, so its primary responsibility is protecting the cells. Only the owner is allowed to use the cell as input and spend the token stored along with it.
 
 The type script is intended to establish some contracts on the cells. When you get a cell with a specified type, you can ensure that the cell has passed the verification in the specific code. And the code is also executed when the cell is destroyed. A typical scenario of type script is user-defined token. The type script must run on outputs, so the token issuance must be authorized.
 
