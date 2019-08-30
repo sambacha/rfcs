@@ -118,7 +118,7 @@ The following two chapters will talk about how the script is used in a transacti
 
 ### Lock Script
 
-Every cell has a lock script. The lock script must run when the cell is used as an input in a transaction. When the script only appears in the outputs, it is not required to reveal the corresponding code in `cell_deps`. A transaction is valid only when all the lock scripts in the inputs exit normally. Since the script runs on outputs, it acts as the lock to controls who can unlock and destroy the cell, as well as spend the capacity stored in the cell.
+Every cell has a lock script. The lock script must run when the cell is used as an input in a transaction. When the script only appears in the outputs, it is not required to reveal the corresponding code in `cell_deps`. A transaction is valid only when all the lock scripts in the inputs exit normally. Since the script runs on inputs, it acts as the lock to controls who can unlock and destroy the cell, as well as spend the capacity stored in the cell.
 
 ![](lock-script.png)
 
