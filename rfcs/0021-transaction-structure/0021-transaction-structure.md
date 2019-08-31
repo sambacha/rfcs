@@ -162,7 +162,7 @@ Various CKB syscalls are designed to read data from the transaction. These sysca
 ckb_load_witness(addr, len, offset, 0, CKB_SOURCE_INPUT);
 ```
 
-The first there arguments control where to store the read data and how many bytes to read. Let's ignore them in the following paragraphs.
+The first three arguments control where to store the read data and how many bytes to read. Let's ignore them in the following paragraphs.
 
 The fifth argument is the data source. `CKB_SOURCE_INPUT` means reading from transaction inputs, and the fourth argument `0` is the index into the inputs array.
 
