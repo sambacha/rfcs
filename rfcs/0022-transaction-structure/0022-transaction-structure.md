@@ -13,7 +13,7 @@ In this article, let's delve into an essential data structure in CKB, the transa
 
 This article has two parts. The first part covers the core transaction features, and the second part introduces some extensions.
 
-CKB is under active development, I'll update the article when the transaction structure changes in future releases. At the time of writing, the corresponding CKB version is v0.19.0.
+CKB is under active development, I'll update the article when the transaction structure changes in future releases. At the time of writing, the corresponding CKB version is v0.19.2.
 
 ![](transaction-overview.png)
 
